@@ -1,0 +1,6 @@
+pretrained_checkpoints: ./ssl_checkpoints
+precalculated_embeddings: ./embedding_cache
+datasets:
+  imagenet: ./data/imagenet
+  imagenet_d: ./data/imagenet_d
+  inaturalist: ./data/inaturalist

@@ -1,0 +1,40 @@
+notes.txt
+
+# Python caches
+__pycache__/
+**.ipynb_checkpoints
+
+# macOS files
+**.DS_Store
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Pycharm project settings
+.idea
+
+# large checkpoint files
+models/checkpoints/
+
+wandb/
+
+embedding_cache/
+_backup
+artifacts
+data
+plots
+figs
+figures
+results/_knn_single
+results
+**/__pycache__
