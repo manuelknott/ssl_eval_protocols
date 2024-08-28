@@ -1,6 +1,6 @@
 # Comparing evaluation protocols for self-supervised pre-training with image classification
 
-This repository contains supplementary code for the paper **A Closer Look at Benchmarking Self-Supervised Pre-Training with Image Classification**. 
+This repository contains supplementary code for the paper [A Closer Look at Benchmarking Self-Supervised Pre-Training with Image Classification](https://arxiv.org/abs/2407.12210).
 
 ## How to use
 
@@ -15,6 +15,19 @@ This repository contains supplementary code for the paper **A Closer Look at Ben
     - `run_fewshot_finetuning.py`
 
 All scripts currently log results to `wandb`. You might need to adapt the scripts if you do not want to use `wandb`.
+
+## Citation
+
+If you find this repo useful, please consider citing us:
+
+```
+@article{marks2024benchmarking,
+  title={A Closer Look at Benchmarking Self-Supervised Pre-training with Image Classification},
+  author={Marks, Markus and Knott, Manuel and Kondapaneni, Neehar and Cole, Elijah and Defraeye, Thijs and Perez-Cruz, Fernando and Perona, Pietro},
+  journal={arXiv preprint arXiv:2407.12210},
+  year={2024}
+}
+```
 
 ## Acknowledgements
 
